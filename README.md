@@ -1,14 +1,14 @@
-# Subscription Archive Notes
+# OpenClash Router Notes
 
-> Archive notes for daily subscription readers who want the current article plus a clear date trail.
+> A router-oriented note hub for OpenClash and OpenWrt readers who want the latest article without digging through old mirrors.
 
 ## 今日获取入口
 
 | 项目 | 内容 |
 | --- | --- |
-| 更新日期 | 2026年9月16日 |
-| 自动同步时间 | 2026年9月16日 00:00 |
-| 当天文章 | https://free.tntyx.com/posts/nodes/2026-09-16 |
+| 更新日期 | 2026年9月17日 |
+| 自动同步时间 | 2026年9月17日 00:00 |
+| 当天文章 | https://free.tntyx.com/posts/nodes/2026-09-17 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket / OpenClash |
 | 主要地区 | 香港、日本、新加坡、美国 |
@@ -19,30 +19,30 @@
 ### 当天文章链接
 
 ```text
-https://free.tntyx.com/posts/nodes/2026-09-16
+https://free.tntyx.com/posts/nodes/2026-09-17
 ```
 
-请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。归档型内容最适合统一到正文，GitHub 只留日期和入口。
+请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。路由器配置更适合稳定维护到正文页，避免旧仓库地址散落。
 
 ## 快速入口
 
-- 今日免费节点文章：https://free.tntyx.com/posts/nodes/2026-09-16
-- 每日免费节点归档：https://free.tntyx.com/nodes
-- 客户端专题页：https://free.tntyx.com/topics
+- 今日免费节点文章：https://free.tntyx.com/posts/nodes/2026-09-17
 - 常见问题文档：https://free.tntyx.com/docs
+- 连接异常排查：https://free.tntyx.com/docs/troubleshooting/no-internet
+- 每日免费节点归档：https://free.tntyx.com/nodes
 - RSS 更新源：https://free.tntyx.com/rss.xml
 
 ## 仓库定位
 
-- 面向场景：每日免费节点文章归档和更新摘要入口
-- 推荐读者：想按日期回看最近更新、对比节点地区和客户端适配的读者
-- 内容重点：日期归档、节点更新摘要、文章入口和失效说明；2026年9月16日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
+- 面向场景：OpenWrt 路由器和 OpenClash 测试配置入口
+- 推荐读者：需要在路由器端导入订阅、排查 DNS 或规则模式的用户
+- 内容重点：OpenClash 更新订阅、路由器 DNS、规则模式和家庭网络测试；2026年9月17日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
 - 固定入口：https://free.tntyx.com/
 
 ## 今日导入路径
 
-1. 打开今日文章，确认日期是 2026年9月16日，再获取正文里的免费订阅入口。
-2. 先打开今日文章，再从站内每日节点归档查看最近 7 天记录；如果客户端没有弹出，就复制文章里的地址后手动新增订阅。
+1. 打开今日文章，确认日期是 2026年9月17日，再获取正文里的免费订阅入口。
+2. 先阅读站内 OpenClash 文档，再把今日文章里的入口写入路由器订阅配置；如果客户端没有弹出，就复制文章里的地址后手动新增订阅。
 3. 导入后先更新订阅并测速，优先选择延迟稳定的 香港、日本、新加坡、美国 节点。
 4. 如果列表为空或格式不识别，回到站内导入教程、格式检测工具和排错页定位问题。
 
@@ -50,7 +50,7 @@ https://free.tntyx.com/posts/nodes/2026-09-16
 
 - 仓库只保存文章链接，不保存真实订阅 Token。
 - 今日记录包含 24 条 节点，适配 Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket。
-- 先看当天文章，再去归档对比前几天变化。
+- 路由器场景先看文档，再回到当天文章核对入口。
 - 免费节点适合临时测试和学习配置，不建议用于支付、企业后台或长期主力连接。
 
 ## 工具与排查
@@ -66,7 +66,7 @@ https://free.tntyx.com/posts/nodes/2026-09-16
 
 ## 使用说明
 
-本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。先看当天文章，再去归档对比前几天变化。 仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
+本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。路由器场景先看文档，再回到当天文章核对入口。 仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
 
 免费节点适合这些场景：
 
